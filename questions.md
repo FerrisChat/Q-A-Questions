@@ -30,6 +30,8 @@ No comment. We don't want to give a improper estimate and then disappoint people
 For me (0/0) it was based off the fact Electron is... horrible at first, and later on when Discord introduced the message intent, I got fed up enough and started working on it.
 If hydro feels like he should add something here, go ahead.
 
+As for differences from other platforms... well... nothing much. Two biggest differences would be the fact it's entirely open source, and has a official app not written with Electron.
+
 ### Will there be any ratelimit bucket header?
 (from Cryptex)
 
@@ -37,7 +39,7 @@ Yup. Can't give you a name *yet* but there'll be two:
 * one specifying total requests
 * one specifying number of seconds for those total requests
 
-The body of 429 already has a JSON response if I remember correctly that wraps these two up and adds a `retry_after` field.
+The body of 429 already has a JSON response that if I remember correctly wraps these two up and adds a `retry_after` field.
 
 ### What will the source of emoji be? (Eg Discord uses Twemoji)
 (from jay3332)
@@ -66,3 +68,35 @@ Pretty similar to Discord. You get a set of bitflags (made with Rust's `bitflags
 If you hit a endpoint that needs permissions, server goes to Redis hoping your permissions for that channel/guild are cached, otherwise falls back to DB.
 If it turns out you don't have perms, you get hit with good old 403 Forbidden.
 When a user changes permissions, it'll be instantly removed from Redis, leaving the next call to fall back.
+
+### To which extent does it try to mimic Discord, what are the "will definitely do"s and "won't do"s?
+(from Izmoqwy)
+
+This is sort of a duplicate of smallpepperz's question above, and I can't really think of much else to add to it.
+
+### The server is made to be self-host-able, right? If so, will the client have a "list of servers" where you can join guilds on multiple servers in the same client or will self-hosting require running a second instance of the client?
+(from Izmoqwy)
+
+For the official client, it'd depend on how easy it is to implement it. 
+If it takes only a little bit of tweaking, you'd be able to easily connect to multiple nodes in a single client instance, but perhaps not all at the same time.
+If it, on the other hand, takes a *lot* of tweaking, most likely you'd have to edit the hardcoded API URL and run a new instance.
+This wouldn't (hopefully) be as much of a problem as it is with Discord and Electron in general, thanks to Rust being so lightweight.
+
+### In the continuity of self-host question, will there be "server groups" for sysadmins? And how will server-wise management work altogether?
+(from Izmoqwy)
+
+There will be a official server on the official server for selfhosting support. 
+As for server-wise management, I didn't have many plans to implement those at the start, but since you asked it, here goes.
+I've been considering perhaps adding flags on admins that would basically let them bypass all permissions. This could be a *huge* issue tho, so this probably won't happen.
+Restricting some app-wide features (ie creating guilds) to only authorized users seems like it could be easily implemented, and without much in the way of security issues.
+Right now those are sort of the biggest things I can think of that would need to be globally controlled. Most of the rest can be controlled at a guild level.
+If there's anything else you think of, ping me in chat.
+
+### Are there plans for bots? If so, would they work the same way as with Discord? Because it can be an issue with selfhosted servers who will have a different endpoint, they could be "mods" though with a lua impl or something
+(from Izmoqwy)
+
+Bots are a yes.
+Same way as Discord as well.
+The biggest issue with selfhosting is defo going to be the different endpoint.
+Unfortnately I see no way around this, but perhaps we could require a parameter in API libs that optionally allows a custom server endpoint to be set up.
+It might be difficult for some libs to dynamically set a endpoint, which is why I haven't already done so.
