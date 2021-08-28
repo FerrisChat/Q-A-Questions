@@ -55,7 +55,7 @@ Centralized, but if you so desired (later on, right now a lot of things are hard
 ### Will there be an official client?
 (from Sophon)
 
-Yup, also Rusty. Using `iced` (or something else, since iced may not have the features that we need) and, depending on how hard it is to implement, allowing you to switch remote servers from the official servers to any selfhosted variant.
+Yup, also Rusty. Using either `fltk` or `gtk-rs` and, depending on how hard it is to implement, allowing you to switch remote servers from the official servers to any selfhosted variant.
 
 ### Will there be a mobile app in the App Store for FerrisChat?
 (from Al3amode)
