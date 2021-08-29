@@ -131,3 +131,25 @@ Probably. We'll see. You'll probably end up with a token for bots that you can r
 (from smallpepperz)
 
 Nope. That was a bad move by Discord. We'll defo not show inacessible channels.
+
+### Will you be able to use markdown in messages (if so, will it be like Discord markdown or full markdown)
+(from smallpepperz)
+
+Full markdown, just like what I'm typing here.
+
+### Any plans on ui stuff such as "buttons" for the API?
+(from jay3332)
+
+Depends on how hard it is to implement in the client.
+
+
+### If you get disconnected from the Websocket connection how will resuming work, or do we have to a full reconnect? And will there be sessions?
+(from Drx)
+
+Store session IDs.
+Send resume with that ID.
+
+### Will guild admins be able to give guild specific badges for their guild?
+(from smallpepperz)
+
+Nope.
