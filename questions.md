@@ -116,3 +116,18 @@ Nope. Ferris is licensed under Creative Commons 0, or in other words, Ferris is 
 (from jay3332)
 
 For me (0/0) personally I don't have any plans to do so. Ryland is more of our marketing guru, so you may want to ask him about that.
+
+### Is ferris chat gonna adopt any features guilded has and discord doesn't?
+(from Littie6amer)
+
+Personally I have no idea what's up with Guilded. I can't answer that personally.
+
+### With the api permissions and different account types, will the authorization routes be limited to user accounts
+(from Drx)
+
+Probably. We'll see. You'll probably end up with a token for bots that you can regen from your user account at any time.
+
+### Will the api return channels that the user doesn't have access to like Discord?
+(from smallpepperz)
+
+Nope. That was a bad move by Discord. We'll defo not show inacessible channels.
