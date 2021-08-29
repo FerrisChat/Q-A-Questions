@@ -153,3 +153,18 @@ Send resume with that ID.
 (from smallpepperz)
 
 Nope.
+
+### Will Ferrischat automatically create roles for bots joining with permissions? And will FerrisChat let you delete those roles without kicking the bot first?
+(from smallpepperz)
+
+Yes, and no.
+
+### Would voice servers be seperate from the api?
+(from Drx)
+
+Yes.
+
+### As a hypothetical, what if there is a server with some members, 20 of which create bots, then the server admins want to make a single bot role to simplify permissions. In this scenario, would there be a way other than kicking 20 bots and reinviting them with no permissions to give them only that central bot role? (Totally hypothetical)
+(from smallpepperz)
+
+There would be no other way. Also nice hypothetical.
