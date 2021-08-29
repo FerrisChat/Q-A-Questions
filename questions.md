@@ -168,3 +168,30 @@ Yes.
 (from smallpepperz)
 
 There would be no other way. Also nice hypothetical.
+
+### Will the "statuses" be the same as discord (online, idle, dnd, streaming, and mobile/web/desktop)
+(from jay3332)
+
+All but streaming, as that integrates with RPC.
+
+### Will there be a pinned color option for roles that will make the user have that role color no matter if the roles above have a different colors?
+(from Littie6amer)
+
+I do like that idea, I'll see if I can implement it.
+
+### Although sharding is optional how would we calculate what shard is entitled to which guild
+(from Drx)
+
+`guild_id % shard_count`
+
+### Would their be sessions like discord for the gateway (specifically session limits)?
+(from Drx)
+
+Yes, scaling with guild count.
+Something like 1k at 100 guilds, increases 1 for every shard possible (500 to 750).
+
+### Will FerrisChat be "playful" or "professional"?
+(from jay3332)
+
+Both, with a toggle to switch between the two.
+
