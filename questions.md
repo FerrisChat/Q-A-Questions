@@ -29,7 +29,7 @@ No comment. We don't want to give an improper estimate and then disappoint peopl
 
 For me (0/0) it was based off the fact Electron is... horrible at first, and later on when Discord introduced the message intent, I got fed up enough and started working on it.
 
-For me (hydro), the chain events that is outlined in [Danny's Gist](https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1) made me want something better than Discord. The shitty, rude, and almost incoherent decisions by Discord's staff members made it seem like it was no longer a community building software run by a small company who listens to their users. It started to seem more like a corporation with some sort of monetary goal (proved by their pushing of nitro).
+For me (hydro), the chain events that is outlined in [Danny's Gist](https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1) made me want something better than Discord. The poor, rude, and almost incoherent decisions by Discord's staff members made it seem like it was no longer a community building software run by a small company who listens to their users. It started to seem more like a corporation with some sort of monetary goal (proved by their pushing of nitro).
 
 As for differences from other platforms... well... nothing much. Two biggest differences would be the fact it's entirely open source, and has a official app not written with Electron.
 
