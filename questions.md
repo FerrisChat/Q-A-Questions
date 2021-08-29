@@ -184,7 +184,7 @@ I do like that idea, I'll see if I can implement it.
 
 `guild_id % shard_count`
 
-### Would their be sessions like discord for the gateway (specifically session limits)?
+### Would their be sessions \[limits] like discord for the gateway?
 (from Drx)
 
 Yes, scaling with guild count.
@@ -194,4 +194,136 @@ Something like 1k at 100 guilds, increases 1 for every shard possible (500 to 75
 (from jay3332)
 
 Both, with a toggle to switch between the two.
+
+### Is there gonna be a max member count for guilds?
+(from Littie6amer)
+
+Starting at something small like 1.5 to 2k to make sure the servers can handle it.
+
+### Will accounts created currently on the PTA server exist when FerrisChat goes live?
+(from smallpepperz)
+
+Nope, as we'll most likely need to nuke the DB.
+
+### Would verification exists for bots and how will it work
+(from Drx)
+
+Nope. The whole point is defeated by the fact it's easy to bypass.
+
+### Will you ever be able to add what games you play to your profile?
+(from Littie6amer)
+
+Via about me, most likely.
+
+### Will you have cool \[HTML] widgets and stuff?
+(from smallpepperz)
+
+Most lilkely not, as the user popout is native code, which isn't easy to translate to HTML.
+
+### will there be custom emojis like on discord, and if so, will you be able to use them globally or just in the guild it was created in
+(from Pumpkin)
+
+Yes, globally.
+
+### Embeds?
+(from Cryptex)
+
+Yes.
+
+### Threads?
+(from jay3332)
+
+Depends.
+
+### What will prevent user bots from being created?
+(from smallpepperz)
+
+Nothing except a lifetime ratelimit per IP.
+Basically you can create up to (we're thinking) 40 accounts per residential IP and 4 per datacenter IP forever, never resetting.
+You will also be able to report malicious accounts in-app, and if enough reports are gathered, you will get a public flag set on your profile.
+
+### Are you using google sign in or handling login yourself?
+(from Littie6amer)
+
+We're doing native signin, plus some oauth2 signins, such as Facebook, Google, Twitter, GitHub, etc.
+
+### Will FerrisChat's servers store deleted messages?
+(from smallpepperz)
+
+Nope.
+
+### search message in a channel route
+(from Cryptex)
+
+Soon:tm:
+
+### Will we allow to use Ferris oauth to sign in on our custom services like dashboards?
+(from Drx)
+
+Yes.
+
+### Is data on ferris servers encrypted?
+(from Littie6amer)
+
+Not on the PTA, but on prod, we will do FDE.
+
+### Search messages with regex?
+(from Pumpkin)
+
+Nope, as malicious expressions can freeze the server.
+
+### Will there be statistics? Like messages per channel over time
+(from smallpepperz)
+
+I like the idea. It'll depend on how hard it is to implement.
+
+### what are the plans on relationships (e.g. blocks, friends, pending friend requests)?
+(from jay3332)
+
+Blocks are a yes, friends are easy to add along with blocks.
+
+### Could you fry an egg on ferris' servers when there is high load?
+(from Littie6amer)
+
+Ask our hoster.
+
+### On a scale of 1-10, how many Easter eggs will there be?
+(from smallpepperz)
+
+6 to 8 on the professional mode, and 11 on the fun mode in app.
+
+### How am I meant to pronounce 0/0?
+(from smallpepperz)
+
+* infinity
+* NaN
+* undefined
+
+pick one
+
+### will you ever be able to send attachment?
+(from Cryptex)
+
+Yup. It'll be uploaded to our CDN.
+
+### Do you see any legal issues with having a CDN?
+(from Littie6amer)
+
+If we add it to our ToS that upload to our servers means we have the rights to distribute it, I see no problems.
+
+### Will there be school hubs?
+(from smallpepperz)
+
+Nope. No point.
+
+### Will you add server boosting?
+(from Littie6amer)
+
+Nope, that's paywalling stuff.
+
+### Also will their be Stage channels?
+(from Drx)
+
+Yes.
+
 
