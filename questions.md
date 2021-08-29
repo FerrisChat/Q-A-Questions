@@ -101,3 +101,11 @@ Same way as Discord as well.
 The biggest issue with selfhosting is defo going to be the different endpoint.
 Unfortnately, I see no way around this, but perhaps we could require a parameter in API libs that optionally allows a custom server endpoint to be set up.
 It might be difficult for some libs to dynamically set an endpoint, which is why I haven't already done so.
+
+### Will ferris chat support RPC?
+
+Rich presence is a good idea, I personally do like it, it might be added, but it won't be high priority.
+
+### Do you foresee any trademark issues with using Ferris as your mascot?
+
+Nope. Ferris is licensed under Creative Commons 0, or in other words, Ferris is dedicated to the public domain.
