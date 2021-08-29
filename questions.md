@@ -326,4 +326,76 @@ Nope, that's paywalling stuff.
 
 Yes.
 
+### Will you let people buy server roles?
+(from Littie6amer)
 
+No, that's up to the server owner.
+
+### Will the autocorrect work on desktop?
+(from smallpepperz)
+
+No, there's no autocorrect crates for Rust.
+
+### Will there be any builtin command system similar to slash command (optional ofc)?
+(from Cryptex)
+
+Not at the moment, perhaps in future.
+
+### Will channel types be the same as discord?
+(from Drx)
+
+Yes.
+
+### Will there be a way for the user to choose to be pinged regardless of the message sender's toggle?
+(from smallpepperz)
+
+No.
+
+### Will you add @noone so you have something to ping when you're lonely?
+(from Littie6amer)
+
+I smell a easter egg...
+
+### Will you allow messages to reference a user profile without pinging them?
+(from smallpepperz)
+
+No, kinda difficult to do so. I do like the idea tho.
+
+### oh will there be something like highlight? where you can set a highlight word when someone ever said it will let you know
+(from Cryptex)
+
+Nope, too much extra API load.
+
+### will you allow people to be dnd while offline?
+(from Littie6amer)
+
+Not as a real status, but as a notification setting, yes.
+
+### Will there be cross-channel replies?
+(from smallpepperz)
+
+I do like the idea, but implementation might be too difficult.
+
+### will there be a way to restrict users from mentioning other users?
+(from Pumpkin)
+
+That's called blocking users.
+
+#### no, like so ppl cant ping everyone separately
+
+I do like that. Perhaps.
+
+### Will there be a way to allow some roles in a server to DM you, but not other roles?
+(from smallpepperz)
+
+Too heavy on the DB, for little benifit.
+
+### will there be a shadow ban channel option for a role permission?
+(from Littie6amer)
+
+Nope, as that is absolutely horrible UX. Ban the user outright if they're that annoying.
+
+### Will Role permissions be like if the user highest role denies something then it will deny it like sending messages in channels instead of other roles overriding it
+(from Drx)
+
+Yes.
