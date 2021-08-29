@@ -103,9 +103,16 @@ Unfortnately, I see no way around this, but perhaps we could require a parameter
 It might be difficult for some libs to dynamically set an endpoint, which is why I haven't already done so.
 
 ### Will ferris chat support RPC?
+(from Littie6amer)
 
 Rich presence is a good idea, I personally do like it, it might be added, but it won't be high priority.
 
 ### Do you foresee any trademark issues with using Ferris as your mascot?
+(from smallpepperz)
 
-Nope. Ferris is licensed under Creative Commons 0, or in other words, Ferris is dedicated to the public domain.
+Nope. Ferris is licensed under Creative Commons 0, or in other words, Ferris is dedicated to the public domain. Check the footer of https://rustacean.net.
+
+### How do you plan to "advertise", or in other words get users to use FerrisChat?
+(from jay3332)
+
+For me (0/0) personally I don't have any plans to do so. Ryland is more of our marketing guru, so you may want to ask him about that.
