@@ -2,7 +2,7 @@
 
 Here lies the questions answered at FC Q&A/AMAs!
 
-Be careful- here lies great knowledge!
+Be careful- herein lies great knowledge!
 
 ## August 28th, 2021 @ 7:30 CDT
 
