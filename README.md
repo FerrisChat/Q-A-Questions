@@ -10,4 +10,4 @@ Be careful- herein lies great knowledge!
 
 ## November 20th, 2021 @ 7:30 CST
 
-TO BE UPLOADED!
+[Questions](./answers/20211120.md)
